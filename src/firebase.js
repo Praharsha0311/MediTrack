@@ -10,7 +10,7 @@ import {
 // import {getStorage} from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDaDBmRW8VVXHcnMl2Nc2rKzEXJ_c8KiP4",
+  apiKey: "",
   authDomain: "patientmonitoring-ce3fd.firebaseapp.com",
   databaseURL: "https://patientmonitoring-ce3fd-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "patientmonitoring-ce3fd",
