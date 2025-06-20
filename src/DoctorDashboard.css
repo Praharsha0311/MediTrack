@@ -1,0 +1,66 @@
+.dashboard-container {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.space-header {
+  padding: 20px;
+  background-color: rgba(31, 40, 51, 0.8);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00FFFF;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.dashboard-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-button.chat-button {
+  background: transparent;
+  border: 3px solid #00FFFF;
+  color: #00FFFF;
+  padding: 1rem 2rem;   /* Slightly narrower sides */
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  width: 500px; 
+}
+
+.space-button.chat-button:hover {
+  background: rgba(0, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  transform: scale(1.05);
+}
+
+.cta{
+  background: transparent;
+  border: 3px solid #00FFFF;
+  color: #00FFFF;
+  padding: 1rem 2rem;   /* Slightly narrower sides */
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  width: 500px; 
+}
+
+.cta:hover{
+  background: rgba(0, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+  transform: scale(1.05);
+}

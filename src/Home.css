@@ -1,0 +1,167 @@
+.home-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background: #000;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.header {
+  position: absolute;
+  top: 0; width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  z-index: 2;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.header nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left:60px;
+}
+
+.hero-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cta {
+  background: #00c3ff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  padding: 60px 40px;
+  background: #111;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feedbacks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.feedback {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.feedback span {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+  color: #ccc;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.partner-card {
+  background: #222;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+/* Ensure body and html take full height */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Disable scroll */
+}
+
+.home-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh; /* Full screen height */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.image-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/test3.gif');
+  background-size: cover; /* Make sure GIF covers entire screen */
+  background-position: center; /* Center the GIF */
+  background-repeat: no-repeat;
+  z-index: -1; /* Send it behind content */
+}
+
+#meditrack_id{
+  color:#00c3ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,76 @@
+
+.healthcard-container {
+  padding: 40px;
+  background: #111;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.healthcard-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.healthcard-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+  background: #222;
+  color: #fff;
+}
+
+.healthcard-input::placeholder {
+  color: #777;
+}
+
+.healthcard-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #00c3ff;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.healthcard-button:hover {
+  background: #00a5d4;
+}
+
+.healthcard-history {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.healthcard-history h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #00c3ff;
+}
+
+.healthcard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.healthcard-table th,
+.healthcard-table td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: center;
+}
+
+.healthcard-table th {
+  background: #333;
+}
+
+.healthcard-table td {
+  background: #111;
+}

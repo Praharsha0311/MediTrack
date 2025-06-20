@@ -1,0 +1,55 @@
+.uploadhealth-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+.uploadhealth-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.uploadhealth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.uploadhealth-input {
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 1rem;
+}
+
+.uploadhealth-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.uploadhealth-input:focus {
+  outline: 2px solid #00bcd4;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.uploadhealth-button {
+  padding: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #00bcd4;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.uploadhealth-button:hover {
+  background-color: #0097a7;
+}
